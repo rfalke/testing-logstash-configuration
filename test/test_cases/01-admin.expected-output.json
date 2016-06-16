@@ -1,0 +1,20 @@
+{
+    "@timestamp": "2011-05-18T08:48:10.000Z",
+    "@version": "1",
+    "agent": "\"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3\"",
+    "auth": "kurt",
+    "bytes": "566",
+    "clientip": "71.141.244.242",
+    "host": "mac.local",
+    "httpversion": "1.1",
+    "ident": "-",
+    "message": "71.141.244.242 - kurt [18/May/2011:01:48:10 -0700] \"GET /admin HTTP/1.1\" 301 566 \"-\" \"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3\"",
+    "path": "/tmp/access.log",
+    "referrer": "\"-\"",
+    "request": "/admin",
+    "response": "301",
+    "timestamp": "18/May/2011:01:48:10 -0700",
+    "type": "apache_access",
+    "verb": "GET"
+}
+

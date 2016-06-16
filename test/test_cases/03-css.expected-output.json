@@ -1,0 +1,20 @@
+{
+    "@timestamp": "2011-05-19T02:35:08.000Z",
+    "@version": "1",
+    "agent": "\"Mozilla/5.0 (Windows NT 6.0; WOW64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1\"",
+    "auth": "-",
+    "bytes": 1837,
+    "clientip": "98.83.179.51",
+    "host": "mac.local",
+    "httpversion": "1.1",
+    "ident": "-",
+    "message": "98.83.179.51 - - [18/May/2011:19:35:08 -0700] \"GET /css/main.css HTTP/1.1\" 200 1837 \"http://www.safesand.com/information.htm\" \"Mozilla/5.0 (Windows NT 6.0; WOW64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1\"",
+    "path": "/tmp/access.log",
+    "referrer": "\"http://www.safesand.com/information.htm\"",
+    "request": "/css/main.css",
+    "response": "200",
+    "timestamp": "18/May/2011:19:35:08 -0700",
+    "type": "apache_access",
+    "verb": "GET"
+}
+
