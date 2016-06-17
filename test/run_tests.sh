@@ -14,8 +14,8 @@ trap finish EXIT
 mkdir "$DIR/config"
 cp ../config/*.conf "$DIR/config"
 rm "$DIR"/config/input-* "$DIR"/config/output-*
-cp test_input_output.conf "$DIR/config"
+sed "s,DIR,$DIR," <test_input_output.conf >"$DIR/config/test_input_output.conf"
 
-logstash -w 1 -f "$DIR/config" <"$DIR/input.json" >"$DIR/output.json"
+logstash -w 1 -f "$DIR/config" <"$DIR/input.json" -l "$DIR/logstash.out"
 
 ./compare.py "$DIR/output.json" test_cases/*.input.json

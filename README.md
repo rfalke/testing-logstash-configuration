@@ -10,6 +10,7 @@ Run
 Example output
 
              $ ./run_tests.sh
+             Sending logstash logs to /var/folders/lb/w82zc8ps6jq2_1tf219ctk_80000gn/T/tmp.SIyNazgk/logstash.out.
              test_cases/01-admin: OK
              test_cases/02-favicon: FAIL, missing file test_cases/02-favicon.expected-output.json
              test_cases/03-css: FAIL
