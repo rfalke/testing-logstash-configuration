@@ -2,5 +2,6 @@
     "@timestamp": "2016-06-15T17:22:43.189Z",
     "@version": "1",
     "message": "71.141.244.242 - kurt [18/May/2011:01:48:10 -0700] \"GET /admin HTTP/1.1\" 301 566 \"-\" \"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3\"",
-    "path": "/tmp/access.log"
+    "path": "/tmp/access.log",
+    "host": "localhost"
 }
